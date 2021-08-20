@@ -1,0 +1,22 @@
+body{
+     margin: 0;
+}
+
+.display{
+    display: block;
+}
+.hr{
+    border: 2px solid rgb(0, 0, 0);
+    width: 50px;
+}
+.apply{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.promo{
+    margin-left: 40%;
+}
+.totalprice{
+    margin-left: 40%;
+}
