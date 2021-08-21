@@ -1,5 +1,7 @@
 body{
      margin: 0;
+     padding: 0;
+     box-sizing: border-box;
 }
 
 .display{
@@ -19,4 +21,9 @@ body{
 }
 .totalprice{
     margin-left: 40%;
+}
+.mytable{
+    margin-left: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }

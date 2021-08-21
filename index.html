@@ -28,44 +28,48 @@
                     <p>Apple M1 chip with 8 core CPU with 4 performance core and 4 efficiency core,7 cores gpu and 16
                         core neural engine,8gb unified memory,256 gb ssd storage,two thunderbolt/USB 4 port magic Mouse
                         Magic keyboard- US english</p>
+                    <!-------- Memory ------>
                     <h1>Memory</h1>
-                    <button>8 GB unified memory</button>
-                    <button>16 GB unified memory</button>
+                    <button id="baseMemory">8 GB unified memory</button>
+                    <button id="extraMemory">16 GB unified memory</button>
+                    <!------- Storage ------->
                     <h1>Storage</h1>
-                    <button>256 GB SSD storage</button>
-                    <button>512 GB SSD storage</button>
-                    <button>1 TB SSD storage</button>
+                    <button id="storage">256 GB SSD storage</button>
+                    <button id="storage1">512 GB SSD storage</button>
+                    <button id="storage2">1 TB SSD storage</button>
+                    <!-------- Delivery ---------->
                     <h1>Choose Your Delivery Option</h1>
-                    <button class="display">Friday,Aug 25 Free prime delivery</button>
+                    <button id="freedelivery" class="display">Friday,Aug 25 Free prime delivery</button>
                     <br>
-                    <button>Friday,Aug 21 Delivery charge $20</button>
+                    <button id="deliverycharge">Friday,Aug 21 Delivery charge $20</button>
 
                 </div>
             </div>
         </div>
     </div>
     <section>
-        <table class="table">
+        <table class="mytable">
             <tbody>
                 <tr>
-                    <td>Base Price</td>
+                    <td>Best Price :</td>
                     <td>$1299</td>
+
                 </tr>
                 <tr>
-                    <td>Extra Memory Cost</td>
-                    <td>$0</td>
+                    <td>Extra Memory Cost :</td>
+                    <td>$<span id="extramemory">0</span></td>
                 </tr>
                 <tr>
-                    <td>Extra Storage cost</td>
-                    <td>$0</td>
+                    <td>Extra Storage cost :</td>
+                    <td>$<span id="extrastoragecost">0</span> </td>
                 </tr>
                 <tr>
-                    <td>Delivery Charge</td>
-                    <td>$0</td>
+                    <td>Delivery Charge :</td>
+                    <td>$<span id="extradeliverycharge">0</span> </td>
                 </tr>
                 <tr class="hr">
-                    <td>Total Price</td>
-                    <td>$1299</td>
+                    <td>Total Price </td>
+                    <td>$<span id="totalprice">1299</span> </td>
                 </tr>
             </tbody>
         </table>
@@ -73,11 +77,11 @@
     <!-- promo Code Section -->
     <section class="promo">
         <h3>Add Promo Code</h3>
-        <input type="text">
-        <button class="apply">Apply</button>
+        <input id="coupon-name" type="text">
+        <button id="promo-code" class="apply">Apply</button>
     </section>
     <hr>
-    <h1 class="totalprice">Total; $1299</h1>
+    <h1 class="totalprice">Total: $<span id="totalp">1299</span> </h1>
     <script src="mac.js"></script>
 </body>
 
