@@ -12,7 +12,6 @@ function total() {
 }
 
 // Memory
-
 function memory(memoryValue) {
     extraMemory.innerText = memoryValue;
 }
@@ -29,7 +28,6 @@ document.getElementById('baseMemory').addEventListener('click', function () {
 })
 
 // Storage
-
 function storage(storageValue) {
     extraStorage.innerText = storageValue;
 }
